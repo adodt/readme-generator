@@ -46,6 +46,32 @@ const questions = () => {
         },
         {
             type: 'input',
+            name: 'usage',
+            message: 'What are the uses for this project?',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Enter a usage description..');
+                }
+            }
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: 'What type of license does your project have?',
+            choices: ['MIT', 'GNU'],
+            default: ['MIT'],
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Plesaes indicate the license used for this project.');
+                }
+            }
+        },
+        {
+            type: 'input',
             name: 'github',
             message: 'GitHub username?',
             validate: nameInput => {
