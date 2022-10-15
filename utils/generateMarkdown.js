@@ -55,8 +55,8 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-To view For questions regarding this project, contact me directly at ${data.email}.
-
+To view my projects, please visit https://github.com/${data.github}.
+For questions regarding this project, contact me directly at ${data.email}.
 
 `;
 }
