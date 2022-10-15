@@ -1,5 +1,6 @@
 const fs = require('fs')
 const inquirer = require ('inquirer')
+const generatePage = require ('./utils/generateMarkdown.js')
 
 // TODO: Include packages needed for this application
 
