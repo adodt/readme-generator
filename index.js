@@ -72,6 +72,30 @@ const questions = () => {
         },
         {
             type: 'input',
+            name: 'contributing',
+            message: 'Write directions for user contribution.',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Include directions for user contribution.');
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'What command is used to run tests?',
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Include command used to run test. npm is standard.');
+                }
+            }
+        },
+        {
+            type: 'input',
             name: 'github',
             message: 'GitHub username?',
             validate: nameInput => {
