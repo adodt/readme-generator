@@ -2,21 +2,21 @@
 ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ##Description
-banjo
+shishi
 
-##Table of Contents
--[Installation](#installation)
--[Usage](#usage)
--[License](#license)
--[Contributing](#contributing)
--[Tests](#tests)
--[Questions](#questions)
+##Table of Contents<br />
+-[Installation](#installation<br />
+-[Usage](#usage)<br />
+-[License](#license)<br />
+-[Contributing](#contributing)<br />
+-[Tests](#tests)<br />
+-[Questions](#questions)<br />
 
 ## Installation
 banjo
 
 ## Usage
-banjo
+shi
 
 ## License
 MIT
@@ -29,5 +29,5 @@ banjo
 
 ## Questions
 To view my projects, please visit https://github.com/banjo.
-For questions regarding this project, contact me directly at banjo.
+For questions regarding this project, contact me directly at shi.
 
