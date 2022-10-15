@@ -1,8 +1,8 @@
 # banjo
-![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
+![Github license](http://img.shields.io/badge/license-GNU-blue.svg)
 
 ##Description
-shishi
+banjo
 
 ##Table of Contents<br />
 -[Installation](#installation<br />
@@ -16,10 +16,10 @@ shishi
 banjo
 
 ## Usage
-shi
+banjo
 
 ## License
-MIT
+GNU
 
 ## Contributing
 banjo
@@ -29,5 +29,5 @@ banjo
 
 ## Questions
 To view my projects, please visit https://github.com/banjo.
-For questions regarding this project, contact me directly at shi.
+For questions regarding this project, contact me directly at banjo.
 
