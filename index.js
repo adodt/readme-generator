@@ -119,13 +119,29 @@ const questions = () => {
             }
         }
     ]);
+}
 
     // TODO: Create a function to write README file
-    function writeToFile(fileName, data) { }
 
-    // TODO: Create a function to initialize app
-    function init() { }
+    const writeToFile = data => {
+        fs.writeToFile('README.md', data, err => {
+            if (err) {
+                console.log(err);
+                return;
+            } else {
+                console.log("Nice work. Your README has been generated!");
+            }
+        });
+    };
 
-    // Function call to initialize app
-    init();
-}
+    questions()
+    .then(answers => {
+        return generatePage(answers);
+    })
+    
+    .then(data => {
+        return writeToFile(data);
+    })
+    .catch(err => {
+        console.log(err)
+    })
